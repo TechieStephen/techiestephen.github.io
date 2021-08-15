@@ -1,32 +1,9 @@
 @import "./variables";
 @import "./header";
 
-@mixin flexCenter($direction) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: $direction;
-}
-
-body{
-    font-family: "Poppins";
-}
-h1{
-    color: $Color;
-}
-section{
-    @include flexCenter(row);
-    background-color: $backgroundColor;
-    
-    div{
-        height: 100px;
-        width: 100px;
-        margin: 3px;
-        background-color: lightblue;
-    }
-}
-main{
-    @extend section;
-    @include flexCenter(column);
-    background-color: gray;
-}
+// @mixin flexCenter($direction) {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: $direction;
+// }
