@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_25" data-name="Group 25" transform="translate(-225 -10)">
+    <g id="Rectangle_61" data-name="Rectangle 61" transform="translate(225 10)" fill="#fff" stroke="#707070" stroke-width="3">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="1.5" y="1.5" width="47" height="47" fill="none"/>
+    </g>
+    <text id="OS" transform="translate(234.5 46.5)" fill="#707070" stroke="#707070" stroke-width="1" font-size="31" font-family="Square721BT-RomanCondensed, Square721 Cn BT"><tspan x="0" y="0">OS</tspan></text>
+  </g>
+</svg>
