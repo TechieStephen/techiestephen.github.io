@@ -27,5 +27,11 @@ header{
 
     #menu{
         cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+            width: 35px;
+        }
     }
 }

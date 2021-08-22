@@ -56,6 +56,19 @@ header .logo span {
 
 header #menu {
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #menu svg {
+  width: 35px;
 }
 
 #lines {
@@ -118,8 +131,12 @@ header #menu {
   width: 100%;
 }
 
+#welcome #connect svg {
+  width: 50px;
+}
+
 #welcome #connect #email {
-  margin-right: 10%;
+  margin-right: 5%;
   width: 30%;
 }
 
@@ -131,8 +148,13 @@ header #menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#welcome #connect #social a {
+  margin-left: 10%;
 }
 
 #email {
@@ -161,34 +183,6 @@ section p {
 
 section #content {
   margin-top: 40px;
-}
-
-#connect #content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-#connect #content #social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-#connect #content #social a {
-  margin-left: 40px;
 }
 
 #skills #content {
@@ -272,6 +266,38 @@ section #content {
   width: 100%;
 }
 
+#connect #content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#connect #content #social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#connect #content #social a {
+  margin-left: 40px;
+}
+
+#connect #content #social svg {
+  width: 50px;
+}
+
 @media screen and (max-width: 1024px) {
   #welcome {
     width: 100%;
@@ -300,22 +326,21 @@ section #content {
   }
   #welcome #connect {
     margin-top: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   #welcome #connect #email {
-    margin-right: 10%;
     width: 40%;
   }
   #welcome #connect #social {
     width: 50%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #welcome #connect #social a {
+    margin-left: 15%;
   }
   section {
     margin-bottom: 15vh;
@@ -326,6 +351,53 @@ section #content {
   }
   section #content {
     margin-top: 40px;
+  }
+  #skills #content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #skills #content .skill {
+    width: 100%;
+    margin-bottom: 40px;
+    min-height: auto !important;
+    padding: 30px 15px;
+  }
+  #skills #content .skill #img {
+    margin-bottom: 30px;
+  }
+  #skills #content .skill p {
+    width: 100%;
+  }
+  #connect #content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #connect #content #email {
+    width: 40%;
+  }
+  #connect #content #social {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #connect #content #social a {
+    margin-left: 15%;
   }
 }
 /*# sourceMappingURL=main.css.map */
