@@ -218,6 +218,10 @@ section #content {
   text-align: center;
 }
 
+#skills #content .skill #tools {
+  margin-top: 25px;
+}
+
 #skills #content .skill #img {
   margin-bottom: 30px;
 }
@@ -246,6 +250,18 @@ section #content {
   border-radius: 5px;
   margin-bottom: 40px;
   overflow: hidden;
+}
+
+#projects #content img {
+  -webkit-transition: 3s -webkit-transform ease-in;
+  transition: 3s -webkit-transform ease-in;
+  transition: 3s transform ease-in;
+  transition: 3s transform ease-in, 3s -webkit-transform ease-in;
+}
+
+#projects #content .project:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #projects #content div:nth-child(1) {
