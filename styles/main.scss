@@ -13,14 +13,15 @@
     // transform: translateX(100px);
 }
 #wrapper{
-    padding: 0px 50px;
-    margin-top: 80px;
+    padding: 3% 3%;
+    margin-top: 100px;
 }
 #welcome{
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 90vh;
+    width: 100%;
     transition: 2s ease-in all;
 
     #message {
@@ -42,15 +43,17 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        width: 100%;
 
         #email{
-            margin-right: 50px;
+            margin-right: 10%;
+            width: 30%;
         }
         #social{
+            width: 50%;
             display: flex;
             align-items: center;
             justify-content: space-around;
-            a{margin-right: 40px;}
         }
     }
 }
@@ -158,10 +161,42 @@ section{
 }
 
 @media screen and (max-width:1024px) {
-    #wrapper{
-        padding: 0px 20px;
-    }
+    #welcome{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 90vh;
+        
+        #message {
+            width: 100%;
+            h2{
+                text-align: center;
+                width: 100%;
+            }
+        }
+        #welcome-img {
+            width: 100%;
+            text-align: center;
+            img{
+                width: 90%;
+            }
+        }
 
+        #connect{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            #email{
+                margin-right: 10%;
+                width: 40%;
+            }
+            #social{
+                width: 50%;
+            }
+        }
+    }
     section{
         margin-bottom: 15vh;
         p{
