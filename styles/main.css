@@ -282,6 +282,10 @@ section #content {
   width: 100%;
 }
 
+#connect {
+  margin-bottom: 5vh;
+}
+
 #connect #content {
   display: -webkit-box;
   display: -ms-flexbox;
