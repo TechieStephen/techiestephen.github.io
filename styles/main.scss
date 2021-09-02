@@ -2,15 +2,20 @@
 @import "./general";
 @import "./header";
 
-#lines{
-    display: block;
-    position: absolute;
-    top: 50px;
+#line{
+    opacity: .5;
+    // background: red;
+    text-align: right;
+    img{
+        width: 50%;
+    }
+
+    
+    position: fixed;
+    top: 0px;
     right: 0px;
     z-index: -1;
-    opacity: .6;
-    width: 50%;
-    // transform: translateX(100px);
+    transform: translateX(100px);
 }
 nav{
     width:350px;
