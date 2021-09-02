@@ -73,13 +73,18 @@ header #menu svg {
   width: 35px;
 }
 
-#lines {
-  display: block;
-  position: absolute;
-  top: 50px;
+#line {
+  opacity: .5;
+  text-align: right;
+  position: fixed;
+  top: 0px;
   right: 0px;
   z-index: -1;
-  opacity: .6;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+#line img {
   width: 50%;
 }
 
