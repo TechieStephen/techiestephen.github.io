@@ -1,13 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="26.748" height="26.748" viewBox="0 0 26.748 26.748">
-  <g id="_x33__x2C__XD_x2C__Adobe" transform="translate(-1.207 -0.712)">
-    <g id="Group_468" data-name="Group 468" transform="translate(1.207 0.712)">
-      <rect id="Rectangle_1406" data-name="Rectangle 1406" width="26.748" height="26.747" transform="translate(0)" fill="#ff26be"/>
-      <rect id="Rectangle_1407" data-name="Rectangle 1407" width="24.394" height="24.394" transform="translate(1.177 1.177)" fill="#2e001f"/>
-      <g id="Group_467" data-name="Group 467" transform="translate(5.019 7.16)">
-        <g id="Group_466" data-name="Group 466">
-          <path id="Path_7555" data-name="Path 7555" d="M105.882,137.4h-2.089l-2.243,4.691L99.277,137.4H97.125l3.046,6.091-3.155,6.237h2.127l2.283-4.78,2.31,4.78h2.3l-3.252-6.31Zm5.776,0v3.135h-.6a4.409,4.409,0,0,0-4.538,4.709c0,2.616,1.326,4.583,4.149,4.583a5.443,5.443,0,0,0,3.058-.719V137.4Zm0,10.626a2.2,2.2,0,0,1-.8.1c-.561,0-2.284-.247-2.284-2.979s1.98-2.95,2.455-2.95a1.014,1.014,0,0,1,.628.133v5.691Z" transform="translate(-97.016 -137.396)" fill="#ffd9f2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="60.876" height="26.748" viewBox="0 0 60.876 26.748">
+  <g id="Group_499" data-name="Group 499" transform="translate(-1518 -2920.809)">
+    <g id="_x33__x2C__XD_x2C__Adobe" transform="translate(1516.793 2920.097)">
+      <g id="Group_468" data-name="Group 468" transform="translate(1.207 0.712)">
+        <rect id="Rectangle_1406" data-name="Rectangle 1406" width="26.748" height="26.747" transform="translate(0)" fill="#ff26be"/>
+        <rect id="Rectangle_1407" data-name="Rectangle 1407" width="24.394" height="24.394" transform="translate(1.177 1.177)" fill="#2e001f"/>
+        <g id="Group_467" data-name="Group 467" transform="translate(5.019 7.16)">
+          <g id="Group_466" data-name="Group 466">
+            <path id="Path_7555" data-name="Path 7555" d="M105.882,137.4h-2.089l-2.243,4.691L99.277,137.4H97.125l3.046,6.091-3.155,6.237h2.127l2.283-4.78,2.31,4.78h2.3l-3.252-6.31Zm5.776,0v3.135h-.6a4.409,4.409,0,0,0-4.538,4.709c0,2.616,1.326,4.583,4.149,4.583a5.443,5.443,0,0,0,3.058-.719V137.4Zm0,10.626a2.2,2.2,0,0,1-.8.1c-.561,0-2.284-.247-2.284-2.979s1.98-2.95,2.455-2.95a1.014,1.014,0,0,1,.628.133v5.691Z" transform="translate(-97.016 -137.396)" fill="#ffd9f2"/>
+          </g>
         </g>
       </g>
+    </g>
+    <g id="_7564187_figma_logo_brand_icon" data-name="7564187_figma_logo_brand_icon" transform="translate(894.381 2670.809)">
+      <path id="path0_fill" d="M671.121,1925.582a4.459,4.459,0,0,0,4.458-4.458v-4.458h-4.458a4.458,4.458,0,1,0,0,8.916Z" transform="translate(0 -1648.834)" fill="#0acf83"/>
+      <path id="path1_fill" d="M666.667,1087.791a4.46,4.46,0,0,1,4.458-4.458h4.458v8.916h-4.458A4.46,4.46,0,0,1,666.667,1087.791Z" transform="translate(-0.004 -824.417)" fill="#a259ff"/>
+      <path id="path1_fill_1_" d="M666.667,254.458A4.46,4.46,0,0,1,671.125,250h4.458v8.916h-4.458A4.46,4.46,0,0,1,666.667,254.458Z" transform="translate(-0.004)" fill="#f24e1e"/>
+      <path id="path2_fill" d="M1500,250h4.458a4.458,4.458,0,0,1,0,8.916H1500Z" transform="translate(-824.421)" fill="#ff7262"/>
+      <path id="path3_fill" d="M1508.916,1087.791a4.458,4.458,0,1,1-4.458-4.458A4.46,4.46,0,0,1,1508.916,1087.791Z" transform="translate(-824.421 -824.417)" fill="#1abcfe"/>
     </g>
   </g>
 </svg>
