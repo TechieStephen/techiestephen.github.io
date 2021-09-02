@@ -177,7 +177,7 @@ section h2 {
 }
 
 section p {
-  margin: 10px 0px;
+  margin: 20px 0px;
   width: 50%;
 }
 
@@ -229,6 +229,10 @@ section #content {
 
 #skills #content .skill #tools {
   margin-top: 25px;
+}
+
+#skills #content .skill #tools img {
+  max-width: 90%;
 }
 
 #skills #content .skill p {
@@ -321,6 +325,12 @@ section #content {
 
 #connect #content #social svg {
   width: 50px;
+}
+
+#youtube {
+  background: lightgrey;
+  padding: 50px 30px;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 1024px) {
