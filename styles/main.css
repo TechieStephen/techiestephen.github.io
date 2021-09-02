@@ -109,7 +109,7 @@ header #menu svg {
 }
 
 #welcome #message h2 span {
-  color: #03CEB8;
+  color: #03ceb6;
   font-weight: 700;
 }
 
@@ -161,7 +161,7 @@ header #menu svg {
   color: #ffffff;
   font-weight: 500;
   font-size: 20px;
-  background: #03CEB8;
+  background: #03ceb6;
   width: 250px;
   padding: 15px;
   margin: 40px 0px;
@@ -339,8 +339,8 @@ section #content {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(189, 150, 197, 0.8))), url(../images/illustration.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(189, 150, 197, 0.8)), url(../images/illustration.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(202, 112, 243, 0.8)), to(rgba(3, 206, 182, 0.8))), url(../images/illustration.jpg);
+  background: linear-gradient(rgba(202, 112, 243, 0.8), rgba(3, 206, 182, 0.8)), url(../images/illustration.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
