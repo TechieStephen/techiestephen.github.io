@@ -187,9 +187,18 @@ section{
     }
 }
 #youtube{
-    background: lightgrey;
     padding: 50px 30px;
     border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/illustration.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
 }
 @media screen and (max-width:1024px) {
     #welcome{
