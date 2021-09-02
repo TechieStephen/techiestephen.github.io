@@ -149,7 +149,11 @@ section{
         margin-top: 40px;
     }
 }
-
+#about{
+    div{
+        display: flex;
+    }
+}
 #skills{
     #content{
         display: flex;
@@ -250,6 +254,7 @@ section{
         }
     }
 }
+
 #youtube{
     padding: 50px;
     border-radius: 5px;
