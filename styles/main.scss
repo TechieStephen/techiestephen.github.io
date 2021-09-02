@@ -199,6 +199,12 @@ section{
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #FFFFFF;
+
+    #youtube-logo{
+        svg{
+            fill:  #FFFFFF;
+        }
+    }
 }
 @media screen and (max-width:1024px) {
     #welcome{
