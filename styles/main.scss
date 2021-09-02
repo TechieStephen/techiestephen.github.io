@@ -149,11 +149,22 @@ section{
         margin-top: 40px;
     }
 }
-#about{
-    div{
+
+#About{
+    #detail{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div{
+            text-align: center;
+            img{
+                width: 50%;
+            }
+        }
     }
 }
+
 #skills{
     #content{
         display: flex;
@@ -281,6 +292,7 @@ section{
     #wrapper{
         margin-top: 150px;
     }
+
     #welcome{
         width: 100%;
         justify-content: center;
@@ -316,6 +328,7 @@ section{
             }
         }
     }
+
     section{
         margin-bottom: 15vh;
         p{
@@ -326,6 +339,15 @@ section{
             margin-top: 40px;
         }
     }
+
+    #About{
+        #detail{
+            div{
+                display: none;
+            }
+        }
+    }
+
     #skills{
         #content{
             flex-direction: column;
@@ -397,4 +419,5 @@ section{
             }
         }
     }
+    
 }
