@@ -9,10 +9,12 @@
 body {
   font-size: 16px;
   width: 100%;
+  color: #0C0C0C;
 }
 
 a {
   text-decoration: none;
+  color: #0C0C0C;
 }
 
 header {
@@ -82,11 +84,17 @@ header #menu svg {
 }
 
 nav {
-  width: 300px;
+  width: 350px;
+  height: 100vh;
   background: white;
   -webkit-box-shadow: 0px 1px 6px lightgray;
           box-shadow: 0px 1px 6px lightgray;
-  padding: 30px 10px;
+  padding: 3%;
+  -webkit-transition: .5s ease-in transform;
+  transition: .5s ease-in transform;
+  text-align: center;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
   position: fixed;
   top: 0px;
   right: 0px;
@@ -100,6 +108,14 @@ nav div:first-child {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+nav p {
+  margin: 30px auto;
+  text-align: left;
 }
 
 nav #links {
@@ -118,8 +134,40 @@ nav #links a {
           box-shadow: 0px 1px 6px lightgray;
   padding: 20px;
   width: 45%;
+  height: 100px;
   margin-bottom: 20px;
   border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav i {
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+nav #mobile {
+  display: none;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.show {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 #wrapper {
@@ -509,6 +557,15 @@ section #content {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  nav {
+    width: 50%;
+  }
+  nav #close {
+    display: none;
+  }
+  nav #mobile {
+    display: inline-block;
   }
 }
 /*# sourceMappingURL=main.css.map */
