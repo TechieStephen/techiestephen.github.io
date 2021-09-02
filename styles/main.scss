@@ -380,8 +380,20 @@ section{
         #close{
             display: none;
         }
-    #mobile{
-        display: inline-block;
+        #mobile{
+            display: inline-block;
+        }
     }
-}
+
+    #youtube{
+        h2{
+            width: 100%;
+        }
+    
+        #youtube-logo{
+            svg{
+                fill:  #FFFFFF;
+            }
+        }
+    }
 }

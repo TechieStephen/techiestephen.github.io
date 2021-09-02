@@ -572,5 +572,11 @@ section #content {
   nav #mobile {
     display: inline-block;
   }
+  #youtube h2 {
+    width: 100%;
+  }
+  #youtube #youtube-logo svg {
+    fill: #FFFFFF;
+  }
 }
 /*# sourceMappingURL=main.css.map */
