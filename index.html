@@ -24,23 +24,26 @@
               
         </div>
     </header>
+    
+    <nav class="nav">
+      <div>
+        <h3>AGAINST<br> COVID-19<br> DISEASES</h3>
+        <i id="close">x</i>
+      </div>
+      <p>Get to know me</p>
+      <div id="links">
+        <a href="#">About Me</a>
+        <a href="#">Works</a>
+        <a href="#">Skillsets</a>
+        <a href="#">Let's Connect</a>
+      </div>
+      <i id="mobile">x</i>
+    </nav>
+
     <div id="box"></div>
     <img src="images/lines.png" id="lines">
 
     <div id="wrapper">
-        <nav>
-          <div>
-            <h3>AGAINST<br> COVID-19<br> DISEASES</h3>
-            <i>x</i>
-          </div>
-          <p>Get to know me</p>
-          <div id="links">
-            <a href="#">About Me</a>
-            <a href="#">Works</a>
-            <a href="#">Skillsets</a>
-            <a href="#">Let's Connect</a>
-          </div>
-        </nav>
         <main id="welcome">
             <div id="message">
                 <h2>
@@ -283,5 +286,19 @@
             </div>
         </section>
     </div>
+
+    <script>
+      menu = document.getElementById('menu')
+      closeMenu = document.getElementById('close')
+      mobile = document.getElementById('mobile')
+      nav = document.getElementsByClassName('nav')
+
+      const toggleMenu = () =>{
+        nav[0].classList.toggle('show')
+      }
+      menu.addEventListener('click', toggleMenu)
+      mobile.addEventListener('click', toggleMenu)
+      closeMenu.addEventListener('click', toggleMenu)
+    </script>
 </body>
 </html>
