@@ -191,7 +191,6 @@ nav #mobile {
       -ms-flex-align: center;
           align-items: center;
   min-height: 90vh;
-  width: 100%;
   -webkit-transition: 2s ease-in all;
   transition: 2s ease-in all;
 }
