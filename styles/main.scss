@@ -292,4 +292,19 @@ section{
             }
         }
     }
+
+    
+#projects{
+    #content{
+        display: grid;
+        width: 100%;
+        grid-template-columns: %;
+        justify-content: space-between;
+
+        .project{
+            height: 60vh;
+            min-height: 60vh;
+        }
+    }
+}
 }
