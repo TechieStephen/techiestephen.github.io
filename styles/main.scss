@@ -270,6 +270,12 @@ section{
         }
     }
 }
+
+.link{
+    color:$linkColor;
+    // font-size: 40px;
+    font-weight: 550;
+}
 @media screen and (max-width:1024px) {
     #wrapper{
         margin-top: 150px;
@@ -369,11 +375,11 @@ section{
         }
     }
     
-nav{
-    width:50%;
-    #close{
-        display: none;
-    }
+    nav{
+        width:50%;
+        #close{
+            display: none;
+        }
     #mobile{
         display: inline-block;
     }
