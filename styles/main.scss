@@ -78,7 +78,7 @@ section{
         font-size: 30px;
     }
     p{
-        margin: 10px 0px;
+        margin: 20px 0px;
         width: 50%;
     }
     #content{
@@ -114,6 +114,9 @@ section{
 
             #tools{
                 margin-top: 25px;
+                img{
+                    max-width: 90%;
+                }
             }
             p{
                 width: 100%;
@@ -183,7 +186,11 @@ section{
         }
     }
 }
-
+#youtube{
+    background: lightgrey;
+    padding: 50px 30px;
+    border-radius: 5px;
+}
 @media screen and (max-width:1024px) {
     #welcome{
         width: 100%;
