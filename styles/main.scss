@@ -207,6 +207,9 @@ section{
     }
 }
 @media screen and (max-width:1024px) {
+    #wrapper{
+        margin-top: 150px;
+    }
     #welcome{
         width: 100%;
         justify-content: center;
