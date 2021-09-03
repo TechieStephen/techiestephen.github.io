@@ -379,6 +379,11 @@ section #content {
   transition: 3s -webkit-transform ease-in;
   transition: 3s transform ease-in;
   transition: 3s transform ease-in, 3s -webkit-transform ease-in;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+  width: auto;
 }
 
 #projects #content .project:hover img {
