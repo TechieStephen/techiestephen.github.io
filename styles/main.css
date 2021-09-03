@@ -383,7 +383,7 @@ section #content {
      object-fit: cover;
   -o-object-position: left;
      object-position: left;
-  width: auto;
+  width: 100%;
 }
 
 #projects #content .project:hover img {
@@ -403,10 +403,6 @@ section #content {
   -ms-grid-column-span: 2;
   grid-column: 2/4;
   background: #FBFFD8;
-}
-
-#projects #content img {
-  width: 100%;
 }
 
 #connect {
@@ -585,6 +581,9 @@ section #content {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  #projects #content img {
+    width: 115%;
   }
   nav {
     width: 60%;

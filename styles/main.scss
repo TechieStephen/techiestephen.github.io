@@ -231,7 +231,7 @@ section{
             transition: 3s transform ease-in;
             object-fit: cover;
             object-position: left;
-            width: auto;
+            width: 100%;
         }
         .project:hover{
             img{
@@ -247,10 +247,6 @@ section{
         div:nth-child(4){
             grid-column: 2/4;
             background: #FBFFD8;
-
-        }
-        img{
-            width: 100%;
         }
     }
 }
@@ -404,8 +400,13 @@ section{
             width: 100%;
             flex-direction: column;
             justify-content: space-between;
+        
+            img{
+                width: 115%;
+            }
         }
     }
+    
     
     nav{
         width:60%;
