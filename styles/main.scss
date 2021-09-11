@@ -222,13 +222,10 @@ section{
             border-radius: 5px;
             margin-bottom: 40px;
             overflow: hidden;
-            height: auto;
         }
 
         img{
             transition: 3s transform ease-in;
-            // object-fit: cover;
-            // object-position: left;
             width: 100%;
         }
         .project:hover{
