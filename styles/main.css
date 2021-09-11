@@ -580,9 +580,6 @@ section #content {
     width: 60%;
     padding: 3%;
   }
-  nav #close {
-    display: none;
-  }
   nav #mobile {
     display: inline-block;
   }
