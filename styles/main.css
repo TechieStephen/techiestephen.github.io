@@ -155,9 +155,8 @@ nav #links a {
 
 nav i {
   cursor: pointer;
-  padding: 10px 20px;
-  background: #f1f1f1;
-  border-radius: 5px;
+  font-size: 2em;
+  color: lightgray;
 }
 
 nav #mobile {
