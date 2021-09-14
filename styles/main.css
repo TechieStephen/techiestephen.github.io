@@ -423,6 +423,7 @@ section #content {
 #projects #content .project .info #links a, #projects #content .project .info #links span {
   font-size: 1.3em;
   color: black;
+  cursor: pointer;
 }
 
 #projects #content img {
