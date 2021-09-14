@@ -396,10 +396,16 @@ section #content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 30px;
 }
 
 #projects #content .project .info ul li {
   margin-right: 20px;
+}
+
+#projects #content .project .info ul li a {
+  font-size: 1.3em;
+  color: gray;
 }
 
 #projects #content img {
