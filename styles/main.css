@@ -106,7 +106,7 @@ nav {
   z-index: 5;
 }
 
-nav div:first-child {
+nav #header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
