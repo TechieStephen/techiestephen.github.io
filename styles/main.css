@@ -551,7 +551,9 @@ section #content {
     margin-left: 15%;
   }
   #projects #content .project {
-    width: 90%;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
   nav {
     width: 60%;
