@@ -153,7 +153,9 @@ section{
         margin-top: 40px;
     }
 }
-
+ul{
+    list-style: none;
+}
 #About{
     #detail{
         display: flex;
@@ -244,7 +246,6 @@ section{
                     margin-top: 30px;
 
                     ul{
-                        list-style: none;
                         display: flex;
                         align-items: center;
     
@@ -333,7 +334,7 @@ section{
     flex-direction: column;
 
 
-    i{
+    #close{
         position: absolute;
         right: 30px;
         top: 25px;
@@ -348,6 +349,16 @@ section{
         margin: 0px auto;
         img{
             width: 100%;
+        }
+        ul{
+            background: #FFFFFF;
+            width: 100%;
+            display: flex;
+            padding: 5px;
+
+            li{
+                margin-right: 15px;
+            }
         }
     }
 }
