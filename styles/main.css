@@ -365,16 +365,30 @@ section #content {
 }
 
 #projects #content .project {
-  -webkit-box-shadow: 0px 1px 6px lightgray;
-          box-shadow: 0px 1px 6px lightgray;
+  -webkit-box-shadow: 0px 1px 3px lightgray;
+          box-shadow: 0px 1px 3px lightgray;
   width: 49%;
   border-radius: 5px;
   margin-bottom: 40px;
   overflow: hidden;
 }
 
+#projects #content .project .image {
+  padding: 30px 20px;
+  text-align: center;
+  background: #FDF2E3;
+}
+
+#projects #content .project .image img {
+  width: 95%;
+}
+
 #projects #content .project .info {
   padding: 20px;
+}
+
+#projects #content .project .info p {
+  width: 90%;
 }
 
 #projects #content .project .info ul {
