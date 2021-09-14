@@ -345,19 +345,27 @@ ul{
     }
 
     #container{
-        width: 40%;
+        width: 45%;
         margin: 0px auto;
         img{
             width: 100%;
         }
         ul{
-            background: #FFFFFF;
             width: 100%;
-            display: flex;
             padding: 5px;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
 
             li{
                 margin-right: 15px;
+                background: #FFFFFF;
+                padding: 5px 15px;
+                border-radius: 5px;
+                font-weight: bold;
+
             }
         }
     }

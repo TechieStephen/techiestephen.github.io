@@ -532,7 +532,7 @@ ul {
 }
 
 #view #container {
-  width: 40%;
+  width: 45%;
   margin: 0px auto;
 }
 
@@ -541,16 +541,27 @@ ul {
 }
 
 #view #container ul {
-  background: #FFFFFF;
   width: 100%;
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #view #container ul li {
   margin-right: 15px;
+  background: #FFFFFF;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1024px) {
