@@ -107,7 +107,7 @@ nav {
   position: fixed;
   top: 0px;
   right: 0px;
-  z-index: 5;
+  z-index: 3;
 }
 
 nav #header {
@@ -501,8 +501,8 @@ ul {
 
 #view {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  right: 0px;
   z-index: 5;
   width: 100%;
   height: 100vh;
@@ -522,7 +522,7 @@ ul {
           flex-direction: column;
 }
 
-#view #close {
+#view #close-view {
   position: absolute;
   right: 30px;
   top: 25px;
@@ -689,10 +689,12 @@ ul {
   #youtube #youtube-logo svg {
     fill: #FFFFFF;
   }
-  #view #close {
+  #view #close-view {
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    top: 91%;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
   }
   #view #container {
     width: 90%;
