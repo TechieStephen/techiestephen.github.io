@@ -689,5 +689,24 @@ ul {
   #youtube #youtube-logo svg {
     fill: #FFFFFF;
   }
+  #view #close {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  #view #container {
+    width: 90%;
+    margin: 0px auto;
+  }
+  #view #container img {
+    width: 100%;
+  }
+  #view #container ul {
+    width: 100%;
+    padding: 5px;
+  }
+  #view #container ul li {
+    margin-bottom: 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
