@@ -223,6 +223,19 @@ section{
             border-radius: 5px;
             margin-bottom: 40px;
             overflow: hidden;
+
+            .info{
+                padding: 20px;
+
+                ul{
+                    list-style: none;
+                    display: flex;
+
+                    li{
+                        margin-right: 20px;
+                    }
+                }
+            }
         }
 
         img{
@@ -383,7 +396,7 @@ section{
     #projects{
         #content{    
             .project{
-                width: 95%;
+                width: 98%;
                 margin: 0 auto;
                 margin-bottom: 40px;
             }
