@@ -373,6 +373,21 @@ section #content {
   overflow: hidden;
 }
 
+#projects #content .project .info {
+  padding: 20px;
+}
+
+#projects #content .project .info ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#projects #content .project .info ul li {
+  margin-right: 20px;
+}
+
 #projects #content img {
   -webkit-transition: 3s -webkit-transform ease-in;
   transition: 3s -webkit-transform ease-in;
@@ -551,7 +566,7 @@ section #content {
     margin-left: 15%;
   }
   #projects #content .project {
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
     margin-bottom: 40px;
   }
