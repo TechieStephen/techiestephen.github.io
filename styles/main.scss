@@ -218,15 +218,26 @@ section{
         justify-content: space-between;
 
         .project{
-            box-shadow: 0px 1px 6px lightgray;
+            box-shadow: 0px 1px 3px lightgray;
             width: 49%;
             border-radius: 5px;
             margin-bottom: 40px;
             overflow: hidden;
 
+            .image{
+                padding: 30px 20px;
+                text-align: center;
+                background: #FDF2E3;
+                img{
+                    width: 95%;
+                }
+            }
+
             .info{
                 padding: 20px;
-
+                p{
+                    width: 90%;
+                }
                 ul{
                     list-style: none;
                     display: flex;
