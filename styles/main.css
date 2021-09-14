@@ -550,11 +550,8 @@ section #content {
   #connect #content #social a {
     margin-left: 15%;
   }
-  #projects #content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  #projects #content .project {
+    width: 90%;
   }
   nav {
     width: 60%;
