@@ -381,8 +381,10 @@ section{
     }
 
     #projects{
-        #content{
-            flex-direction: column;
+        #content{    
+            .project{
+                width: 90%;
+            }
         }
     }
     
