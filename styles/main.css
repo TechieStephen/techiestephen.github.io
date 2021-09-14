@@ -520,6 +520,9 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: 5s ease-in all;
+  transition: 5s ease-in all;
+  display: none;
 }
 
 #view #close-view {
