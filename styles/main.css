@@ -77,6 +77,76 @@ header #menu i {
   font-size: 1.5em;
 }
 
+#welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 90vh;
+  -webkit-transition: 2s ease-in all;
+  transition: 2s ease-in all;
+}
+
+#welcome #message h2 {
+  width: 65%;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#welcome #message h2 span {
+  color: #03ceb6;
+  font-weight: 700;
+}
+
+#welcome #welcome-img img {
+  width: 100%;
+}
+
+#welcome #connect {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+#welcome #connect svg {
+  width: 50px;
+}
+
+#welcome #connect #email {
+  margin-right: 5%;
+  width: 30%;
+}
+
+#welcome #connect #social {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#welcome #connect #social a {
+  margin-left: 10%;
+}
+
 #line {
   opacity: .5;
   text-align: right;
@@ -180,76 +250,6 @@ nav #mobile {
 #wrapper {
   padding: 3% 3%;
   margin-top: 100px;
-}
-
-#welcome {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 90vh;
-  -webkit-transition: 2s ease-in all;
-  transition: 2s ease-in all;
-}
-
-#welcome #message h2 {
-  width: 65%;
-  font-size: 30px;
-  font-weight: 500;
-}
-
-#welcome #message h2 span {
-  color: #03ceb6;
-  font-weight: 700;
-}
-
-#welcome #welcome-img img {
-  width: 100%;
-}
-
-#welcome #connect {
-  margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  width: 100%;
-}
-
-#welcome #connect svg {
-  width: 50px;
-}
-
-#welcome #connect #email {
-  margin-right: 5%;
-  width: 30%;
-}
-
-#welcome #connect #social {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-#welcome #connect #social a {
-  margin-left: 10%;
 }
 
 #email {

@@ -1,6 +1,7 @@
 @import "./variables";
 @import "./general";
 @import "./header";
+@import "./welcome";
 
 #line{
     opacity: .5;
@@ -85,49 +86,7 @@ nav{
     margin-top: 100px;
 }
 
-#welcome{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 90vh;
-    transition: 2s ease-in all;
 
-    #message {
-        h2{
-            width: 65%;
-            font-size: 30px;
-            font-weight: 500;
-            span{color: $mainColor; font-weight: 700;}
-        }
-    }
-    #welcome-img {
-        img{
-            width: 100%;
-        }
-    }
-
-    #connect{
-        margin-top: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        width: 100%;
-        svg{
-            width: 50px;
-        }
-        #email{
-            margin-right: 5%;
-            width: 30%;
-        }
-        #social{
-            width: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            a{margin-left: 10%;}
-        }
-    }
-}
 
 #email{
     color: #ffffff;
