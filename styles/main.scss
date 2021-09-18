@@ -7,36 +7,23 @@
 @import "./projects";
 @import "./connect";
 
-
+section{
+    margin-bottom: 10vh;
+    h2{
+        font-size: 30px;
+    }
+    p{
+        margin: 20px 0px;
+        width: 50%;
+    }
+    #content{
+        margin-top: 40px;
+    }
+}
 
 #wrapper{
     padding: 3% 3%;
     margin-top: 100px;
-    
-    section{
-        margin-bottom: 10vh;
-        h2{
-            font-size: 30px;
-        }
-        p{
-            margin: 20px 0px;
-            width: 50%;
-        }
-        #content{
-            margin-top: 40px;
-        }
-    }
-
-    #email{
-        color: #ffffff;
-        font-weight: 500;
-        font-size: 20px;
-        background: $mainColor;
-        width: 250px;
-        padding: 15px;
-        margin: 40px 0px;
-        text-align: center;
-    }
 }
 
 #line{
@@ -54,7 +41,16 @@
     transform: translateX(100px);
 }
 
-
+#email{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    background: $mainColor;
+    width: 250px;
+    padding: 15px;
+    margin: 40px 0px;
+    text-align: center;
+}
 
 #youtube{
     padding: 50px;
@@ -78,7 +74,6 @@
     font-weight: 550;
 }
 
-//project preview code
 #view{
     position: fixed;
     top: 0px;
@@ -133,7 +128,6 @@
     transition: 5s ease-in all;
     display: none;
 }
-
 @media screen and (max-width:1024px) {
     #wrapper{
         margin-top: 150px;
