@@ -166,6 +166,16 @@ header #menu i {
   font-size: 1.5em;
 }
 
+@media screen and (max-width: 1024px) {
+  header nav {
+    width: 60%;
+    padding: 3%;
+  }
+  header nav #mobile {
+    display: inline-block;
+  }
+}
+
 #welcome {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -693,13 +703,6 @@ section #content {
   }
   section #content {
     margin-top: 40px;
-  }
-  nav {
-    width: 60%;
-    padding: 3%;
-  }
-  nav #mobile {
-    display: inline-block;
   }
   #youtube h2 {
     width: 100%;
