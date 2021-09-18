@@ -1,0 +1,19 @@
+#connect{
+    margin-bottom: 5vh;
+
+    #content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #social{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            a{margin-left: 40px;}
+            svg{
+                width: 50px;
+            }
+        }
+    }
+}
