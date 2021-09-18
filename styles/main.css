@@ -430,26 +430,37 @@ header #menu i {
   width: 50px;
 }
 
-section {
+#wrapper {
+  padding: 3% 3%;
+  margin-top: 100px;
+}
+
+#wrapper section {
   margin-bottom: 10vh;
 }
 
-section h2 {
+#wrapper section h2 {
   font-size: 30px;
 }
 
-section p {
+#wrapper section p {
   margin: 20px 0px;
   width: 50%;
 }
 
-section #content {
+#wrapper section #content {
   margin-top: 40px;
 }
 
-#wrapper {
-  padding: 3% 3%;
-  margin-top: 100px;
+#wrapper #email {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  background: #03ceb6;
+  width: 250px;
+  padding: 15px;
+  margin: 40px 0px;
+  text-align: center;
 }
 
 #line {
@@ -465,17 +476,6 @@ section #content {
 
 #line img {
   width: 50%;
-}
-
-#email {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 20px;
-  background: #03ceb6;
-  width: 250px;
-  padding: 15px;
-  margin: 40px 0px;
-  text-align: center;
 }
 
 #youtube {
