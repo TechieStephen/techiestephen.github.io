@@ -145,29 +145,6 @@ section{
             margin-top: 40px;
         }
     }
-
-
-    #skills{
-        #content{
-            flex-direction: column;
-    
-            .skill{
-                width: 100%;
-                margin-bottom: 40px;
-                min-height: auto !important;
-                padding: 30px 15px;
-    
-                #img{
-                    svg{
-                        width: 40%;
-                    }
-                }
-                p{
-                    width: 100%;
-                }
-            }
-        }
-    }
     
     #connect{
         #content{

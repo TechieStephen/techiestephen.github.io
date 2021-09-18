@@ -86,7 +86,7 @@ header{
             transform: translateX(0%);
         }
     }
-    
+
     #menu{
         cursor: pointer;
         display: flex;
@@ -99,4 +99,8 @@ header{
             font-size: 1.5em;
         }
     }
+}
+
+@media screen and (max-width:1024px) {
+
 }
