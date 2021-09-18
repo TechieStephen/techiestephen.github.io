@@ -5,6 +5,7 @@
     font-family: 'Poppins', "Rubik", sans-serif;
     // user-select: none;
 }
+
 body{
     font-size: 15px;
     // background: $background;
@@ -12,6 +13,11 @@ body{
     color: $textColor;
     // overflow-x: hidden;
 }
+
+ul{
+    list-style: none;
+}
+
 a{
     text-decoration: none;
     color: $textColor;

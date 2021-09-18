@@ -7,6 +7,28 @@
 @import "./projects";
 @import "./connect";
 
+
+
+
+section{
+    margin-bottom: 10vh;
+    h2{
+        font-size: 30px;
+    }
+    p{
+        margin: 20px 0px;
+        width: 50%;
+    }
+    #content{
+        margin-top: 40px;
+    }
+}
+
+#wrapper{
+    padding: 3% 3%;
+    margin-top: 100px;
+}
+
 #line{
     opacity: .5;
     // background: red;
@@ -22,76 +44,6 @@
     transform: translateX(100px);
 }
 
-nav{
-    width:350px;
-    height: 100vh;
-    background: rgb(255, 255, 255);
-    box-shadow: 0px 1px 6px lightgray;
-    padding: 2% 3%;
-    transition: .5s ease-in transform;
-    text-align: center;
-    transform: translateX(100%);
-
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    z-index: 3;
-
-    #header{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    p{
-        margin: 30px auto;
-        text-align: left;
-    }
-
-    #links{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-
-        a{
-            box-shadow: 0px 1px 6px lightgray;
-            padding: 20px;
-            width: 45%;
-            height: 100px;
-            margin-bottom: 20px;
-            border-radius: 6px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    }
-
-    i{
-        cursor: pointer;
-        font-size: 2em;
-        color: lightgray;
-    }    
-
-    #mobile{
-        display: none;
-        position: absolute;
-        bottom:20px;
-        right: 50%;
-        transform: translateX(50%);
-    }
-}
-
-.show{
-    transform: translateX(0%);
-}
-
-#wrapper{
-    padding: 3% 3%;
-    margin-top: 100px;
-}
-
-
-
 #email{
     color: #ffffff;
     font-weight: 500;
@@ -102,25 +54,6 @@ nav{
     margin: 40px 0px;
     text-align: center;
 }
-
-section{
-    margin-bottom: 10vh;
-    h2{
-        font-size: 30px;
-    }
-    p{
-        margin: 20px 0px;
-        width: 50%;
-    }
-    #content{
-        margin-top: 40px;
-    }
-}
-ul{
-    list-style: none;
-}
-
-
 
 #youtube{
     padding: 50px;
@@ -141,7 +74,6 @@ ul{
 
 .link{
     color:$linkColor;
-    // font-size: 40px;
     font-weight: 550;
 }
 
