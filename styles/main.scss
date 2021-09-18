@@ -145,25 +145,6 @@ section{
             margin-top: 40px;
         }
     }
-    
-    #connect{
-        #content{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            #email{
-                width: 40%;
-            }
-            #social{    
-                width: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: flex-end;
-                a{margin-left: 15%;}
-            }
-        }
-    }
 
     #projects{
         #content{    

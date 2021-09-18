@@ -503,6 +503,38 @@ header #menu i {
   width: 50px;
 }
 
+@media screen and (max-width: 1024px) {
+  #connect #content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #connect #content #email {
+    width: 40%;
+  }
+  #connect #content #social {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #connect #content #social a {
+    margin-left: 15%;
+  }
+}
+
 #wrapper {
   padding: 3% 3%;
   margin-top: 100px;
@@ -653,35 +685,6 @@ section #content {
   }
   section #content {
     margin-top: 40px;
-  }
-  #connect #content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  #connect #content #email {
-    width: 40%;
-  }
-  #connect #content #social {
-    width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  #connect #content #social a {
-    margin-left: 15%;
   }
   #projects #content .project {
     width: 98%;
