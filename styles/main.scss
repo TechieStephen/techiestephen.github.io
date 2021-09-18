@@ -2,6 +2,8 @@
 @import "./general";
 @import "./header";
 @import "./welcome";
+@import "./about";
+@import "./skills";
 
 #line{
     opacity: .5;
@@ -117,44 +119,6 @@ ul{
 }
 
 
-#skills{
-    #content{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        .skill{
-            width: 30%;
-            min-height: 60vh;
-            box-shadow: 0px 1px 6px lightgray;
-            background: #ffffff;
-            border-radius: 10px;
-            padding: 30px 20px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            
-            #img{
-                margin-bottom: 30px;
-                svg{
-                    width: 50%;
-                    height: auto;
-                }
-            }
-
-            #tools{
-                margin-top: 25px;
-                img{
-                    max-width: 90%;
-                }
-            }
-            p{
-                width: 100%;
-            }
-        }
-    }
-}
 
 #projects{
     #content{
