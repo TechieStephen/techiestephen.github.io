@@ -265,6 +265,11 @@ header #menu i {
   #welcome #message h2 {
     text-align: center;
     width: 100%;
+    font-size: 25px;
+  }
+  #welcome #message h2 span {
+    color: #03ceb6;
+    font-weight: 700;
   }
   #welcome #welcome-img {
     width: 100%;
@@ -293,7 +298,7 @@ header #menu i {
             justify-content: flex-end;
   }
   #welcome #connect #social a {
-    margin-left: 5%;
+    margin-left: 10%;
   }
 }
 
