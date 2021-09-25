@@ -554,7 +554,10 @@ header #menu i {
             justify-content: flex-end;
   }
   #connect #content #social a {
-    margin-left: 15%;
+    margin-left: 10%;
+  }
+  #connect #content #social svg {
+    width: 40px;
   }
 }
 
