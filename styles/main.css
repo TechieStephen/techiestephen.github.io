@@ -700,6 +700,13 @@ section #content {
   #wrapper {
     margin-top: 150px;
   }
+  #line {
+    opacity: .5;
+    text-align: center;
+  }
+  #line img {
+    width: 100%;
+  }
   section {
     margin-bottom: 15vh;
   }

@@ -133,6 +133,15 @@ section{
         margin-top: 150px;
     }
 
+    #line{
+        opacity: .5;
+        // background: red;
+        text-align: center;
+        img{
+            width: 100%;
+        }
+    }
+
     section{
         margin-bottom: 15vh;
         p{
