@@ -69,14 +69,19 @@
         #connect{
             margin-top: 50px;
             justify-content: space-between;
-
+            
+            svg{
+                width: 40px;
+            }
             #email{
                 width: 40%;
+                margin-right: 10%;
+
             }
             #social{
                 width: 50%;
                 justify-content: flex-end;
-                a{margin-left: 15%;}
+                a{margin-left: 5%;}
             }
         }
     }

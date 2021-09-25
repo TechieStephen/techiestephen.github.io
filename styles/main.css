@@ -279,8 +279,12 @@ header #menu i {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  #welcome #connect svg {
+    width: 40px;
+  }
   #welcome #connect #email {
     width: 40%;
+    margin-right: 10%;
   }
   #welcome #connect #social {
     width: 50%;
@@ -289,7 +293,7 @@ header #menu i {
             justify-content: flex-end;
   }
   #welcome #connect #social a {
-    margin-left: 15%;
+    margin-left: 5%;
   }
 }
 
