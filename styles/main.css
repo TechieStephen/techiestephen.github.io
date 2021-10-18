@@ -7,7 +7,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 17px;
   width: 100%;
   color: #0C0C0C;
 }
@@ -19,6 +19,12 @@ ul {
 a {
   text-decoration: none;
   color: #0C0C0C;
+}
+
+@media (max-width: 900px) {
+  body {
+    font-size: 17px;
+  }
 }
 
 header {
