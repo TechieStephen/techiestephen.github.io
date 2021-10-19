@@ -236,9 +236,9 @@
                 yours can be next big thing we get to work on.
             </p>
             <div id="content">
-                <div class="project">
+                <div v-for="i in 4" class="project">
                   <div class="image">
-                    <img src="images/projects/1.png" alt="">
+                    <img src="images/projects/easybank.png" alt="">
                   </div>
 
                   <div class="info">
@@ -308,7 +308,7 @@
     <div id="view">
       <i class="fas fa-times-circle" id="close-view"></i>
       <div id="container">
-        <img src="images/projects/1.png" alt="">
+        <img src="images/projects/easybank.png" alt="">
         <ul id="technologies">
           <li>HTML</li>
           <li>CSS</li>
@@ -321,7 +321,7 @@
     </div>
 
     <!-- <script src="https://unpkg.com/vue@next"></script> -->
-    <script src="vendor/vue.js"></script>
+    <script defer src="vendors/vue.js"></script>
     <script src="js/main.js" def></script>
 
     <script src="js/app.js" def></script>
@@ -330,7 +330,7 @@
       const close_view = document.getElementById("close-view")
       const view_project = document.getElementsByClassName("fa-compress")
 
-      console.log(view_project)
+      // console.log(view_project)
 
       close_view.addEventListener('click', function(){
         document.getElementById('view').style.display = "none"
