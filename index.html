@@ -236,15 +236,15 @@
                 yours can be next big thing we get to work on.
             </p>
             <div id="content">
-                <div class="project">
+                <div v-for="item in projects" class="project">
                   <div class="image">
-                    <img src="images/projects/easybank.png" alt="">
+                    <img :src="item.image" :alt="item.title">
                   </div>
 
                   <div class="info">
-                    <h3>Study Pro {{counter}}</h3>
+                    <h3>{{item.title}}</h3>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, amet.
+                      {{item.description}}
                     </p>
                     <div id="links">
                       <ul>
