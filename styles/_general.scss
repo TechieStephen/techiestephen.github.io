@@ -27,10 +27,6 @@ svg{
     cursor: pointer;
 }
 
-svg, img{
-    pointer-events: none;
-}
-
 @media (max-width:900px){
     body{
         font-size: 17px;
