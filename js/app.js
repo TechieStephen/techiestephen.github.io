@@ -20,7 +20,7 @@ const App = Vue.createApp({
                 "image":"../images/projects/ip-tracker.jpg",
                 "link":"https://ip-loca.netlify.app",
                 "github":"https://github.com/ohienstephen/IP-Locator",
-                "description":"Need to track an IP?. This app helps you track Ip Address and displays the location on the a map for you."
+                "description":"Need to track an IP? This app helps you track Ip Address and displays the location on the a map for you."
         
             },
             {
