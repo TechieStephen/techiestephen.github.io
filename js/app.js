@@ -1,15 +1,13 @@
-const App = {
+const App = Vue.createApp({
     data() {
       return {
-        counter: 50,
-        projects : []
+        counter: 50
       }
     },
     created(){
         console.log(this.counter)
-        alert(123)
     }
-  }
+  })
   
-Vue.createApp(App).mount('#projects')
+App.mount('#projects')
   
