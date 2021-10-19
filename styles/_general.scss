@@ -3,7 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    // user-select: none;
+    user-select: none;
 }
 
 body{
@@ -21,6 +21,14 @@ ul{
 a{
     text-decoration: none;
     color: $textColor;
+}
+
+svg{
+    cursor: pointer;
+}
+
+svg, img{
+    pointer-events: none;
 }
 
 @media (max-width:900px){
