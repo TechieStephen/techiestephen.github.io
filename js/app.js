@@ -17,7 +17,7 @@ const App = Vue.createApp({
                 "id":2,
                 "title":"IP Locator",
                 "technologies":"HTML5, CSS3, JavaScript, API, Open Map",
-                "image":"../images/projects/ip-tracker.jpg",
+                "image":"../images/projects/ip-tracker.png",
                 "link":"https://ip-loca.netlify.app",
                 "github":"https://github.com/ohienstephen/IP-Locator",
                 "description":"Need to track an IP? This app helps you track Ip Address and displays the location on the a map for you."
@@ -25,9 +25,9 @@ const App = Vue.createApp({
             },
             {
                 "id":3,
-                "title":"countriz",
+                "title":"Countriz",
                 "technologies":"HTML5, CSS3, JavaScript, API, Axios, Vue.js C#",
-                "image":"../images/projects/countriz.jpg",
+                "image":"../images/projects/countriz.png",
                 "link":"https://os-countries.netlify.app",
                 "github":"https://github.com/ohienstephen/Countriz",
                 "description":"Countriz is an app that displays countries and their basic information. The app also has a color theme switcher to switch from light to dark theme"

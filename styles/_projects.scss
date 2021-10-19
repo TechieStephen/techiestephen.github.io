@@ -13,11 +13,11 @@
             overflow: hidden;
 
             .image{
-                padding: 30px 20px;
+                padding: 15px;
                 text-align: center;
-                // background: #FDF2E3;
                 background: #DBDEE7;
                 img{
+                    border-radius: 2px;
                     width: 95%;
                 }
             }
@@ -52,7 +52,7 @@
         }
 
         img{
-            transition: 3s transform ease-in;
+            transition: 2s transform;
             width: 100%;
         }
         .project:hover{
