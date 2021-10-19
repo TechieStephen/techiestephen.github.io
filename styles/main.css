@@ -174,7 +174,7 @@ header #menu i {
 
 @media screen and (max-width: 1024px) {
   header nav {
-    width: 60%;
+    width: 100%;
     padding: 3%;
   }
   header nav #mobile {
