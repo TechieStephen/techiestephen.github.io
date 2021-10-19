@@ -42,15 +42,6 @@ const App = Vue.createApp({
                 "github":"",
                 "description":"E-Learning Platform for College Students. Built using Asp.Net Core Web API, C# and Vue CLI. The aim of this project is to give Nigeria students access to online video lectures on their various courses",
         
-            },
-            {
-                "id":5,
-                "title":"A Mini StackOverFlow Clone",
-                "technologies":"HTML5, CSS3, JavaScript, API, Axios, Vue.js, Python, Django",
-                "image":"../images/projects/tutorpro.png",
-                "link":"",
-                "github":"",
-                "description":"Code is a stackoverflow clone built using Vue.js, Python and Django framework"
             }
         ]
       }
