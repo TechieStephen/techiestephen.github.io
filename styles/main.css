@@ -590,6 +590,10 @@ section #content {
   margin-top: 40px;
 }
 
+svg {
+  cursor: pointer;
+}
+
 #line {
   opacity: .5;
   text-align: right;
