@@ -726,11 +726,10 @@ section #content {
     margin-top: 150px;
   }
   #line {
-    opacity: .5;
-    text-align: center;
+    width: 70%;
   }
-  #line img {
-    width: 100%;
+  #decoration-image {
+    width: 55%;
   }
   section {
     margin: 50px 0px;
