@@ -301,9 +301,10 @@ header #menu i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+#About #detail p {
+  width: 50%;
 }
 
 #About #detail div {
@@ -311,7 +312,7 @@ header #menu i {
 }
 
 #About #detail div img {
-  width: 60%;
+  width: 50%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -590,7 +591,7 @@ main {
 #decoration-image {
   width: 40%;
   position: absolute;
-  top: 150px;
+  top: 120px;
   right: 10px;
   z-index: -1;
 }
