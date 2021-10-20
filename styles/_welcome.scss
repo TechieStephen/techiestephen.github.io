@@ -6,11 +6,14 @@
     transition: 2s ease-in all;
 
     #message {
-        h2{
+        h1{
             width: 65%;
             font-size: 30px;
             font-weight: 500;
-            span{color: $mainColor; font-weight: 700;}
+            span{
+                color: $mainColor; 
+                font-weight: 700;
+            }
         }
     }
     #welcome-img {

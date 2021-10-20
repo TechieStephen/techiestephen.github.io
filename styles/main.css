@@ -203,13 +203,13 @@ header #menu i {
   transition: 2s ease-in all;
 }
 
-#welcome #message h2 {
+#welcome #message h1 {
   width: 65%;
   font-size: 30px;
   font-weight: 500;
 }
 
-#welcome #message h2 span {
+#welcome #message h1 span {
   color: #03ceb6;
   font-weight: 700;
 }
@@ -579,6 +579,25 @@ header #menu i {
   margin-top: 100px;
 }
 
+#line {
+  opacity: .5;
+  width: 50%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: -2;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+#decoration-image {
+  width: 40%;
+  position: absolute;
+  top: 150px;
+  right: 10px;
+  z-index: -1;
+}
+
 section {
   margin-bottom: 10vh;
 }
@@ -594,21 +613,6 @@ section p {
 
 section #content {
   margin-top: 40px;
-}
-
-#line {
-  opacity: .5;
-  text-align: right;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  z-index: -1;
-  -webkit-transform: translateX(100px);
-          transform: translateX(100px);
-}
-
-#line img {
-  width: 50%;
 }
 
 #email {
