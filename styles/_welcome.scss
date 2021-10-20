@@ -59,9 +59,11 @@
         align-items: center;
         min-height: 90vh;
         transition: 2s ease-in all;
+        background-color: gray;
     
         #message {
-            width: 50%;
+            width: 60%;
+            background-color: red;
             h1 {
                 font-size: 30px;
                 font-weight: 500;

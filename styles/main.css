@@ -276,9 +276,11 @@ header #menu i {
     min-height: 90vh;
     -webkit-transition: 2s ease-in all;
     transition: 2s ease-in all;
+    background-color: gray;
   }
   #welcome #message {
-    width: 50%;
+    width: 60%;
+    background-color: red;
   }
   #welcome #message h1 {
     font-size: 30px;
@@ -595,9 +597,9 @@ header #menu i {
   }
 }
 
-#wrapper {
-  padding: 20px 6%;
-  margin-top: 100px;
+main {
+  padding: 0px 6%;
+  margin-top: 70px;
 }
 
 #line {
