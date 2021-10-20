@@ -1,13 +1,22 @@
 $mainColor : hsl(173, 97%, 41%);
-$textColor : #0C0C0C;
 $linkColor: #FF931E;
 $background : #FCFCFC;
+
+$DarkBlue: hsl(233, 26%, 24%);
+$LimeGreen: hsl(136, 65%, 51%);
+$BrightCyan: hsl(192, 70%, 51%);
+
+$GrayishBlue: hsl(233, 8%, 62%);
+$LightGrayishBlue: hsl(220, 16%, 96%);
+$VeryLightGray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Public Sans', sans-serif;
-    // font-family: 'Open Sans', sans-serif;
+    // font-family: 'Public Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     user-select: none;
 }
 
@@ -15,7 +24,7 @@ body{
     font-size: 17px;
     // background: $background;
     width: 100%;
-    color: $textColor;
+    color: $DarkBlue;
     // overflow-x: hidden;
 }
 
@@ -25,11 +34,15 @@ ul{
 
 a{
     text-decoration: none;
-    color: $textColor;
+    color: $DarkBlue;
 }
 
 svg{
     cursor: pointer;
+}
+
+p{
+    color: $GrayishBlue;
 }
 
 @media (max-width:900px){
