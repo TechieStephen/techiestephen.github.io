@@ -264,12 +264,21 @@ header #menu i {
 
 @media screen and (max-width: 1024px) {
   #welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     min-height: 90vh;
     -webkit-transition: 2s ease-in all;
     transition: 2s ease-in all;
   }
   #welcome #message {
-    width: 60%;
+    width: 50%;
   }
   #welcome #message h1 {
     font-size: 30px;
@@ -279,7 +288,8 @@ header #menu i {
     color: #03ceb6;
     font-weight: 700;
   }
-  #welcome #connect {
+  #welcome #message #connect {
+    margin-top: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -289,12 +299,11 @@ header #menu i {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 100%;
   }
-  #welcome #connect svg {
+  #welcome #message #connect svg {
     width: 50px;
   }
-  #welcome #connect #email {
+  #welcome #message #connect #email {
     margin-right: 5%;
     color: #ffffff;
     font-weight: 500;
@@ -304,7 +313,7 @@ header #menu i {
     margin: 40px 0px;
     text-align: center;
   }
-  #welcome #connect #social {
+  #welcome #message #connect #social {
     width: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -316,7 +325,7 @@ header #menu i {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  #welcome #connect #social a {
+  #welcome #message #connect #social a {
     margin-left: 10%;
   }
 }
