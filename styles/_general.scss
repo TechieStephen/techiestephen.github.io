@@ -36,7 +36,11 @@ a{
     text-decoration: none;
     color: $DarkBlue;
 }
-
+button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
 svg{
     cursor: pointer;
 }
