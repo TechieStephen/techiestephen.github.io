@@ -59,3 +59,19 @@
         }
     }    
 }
+
+@media screen and (max-width:1000px) {
+    #welcome {    
+        #message {
+            width: 70%;
+        }
+    }    
+}
+
+@media screen and (max-width:760px) {
+    #welcome {    
+        #message {
+            width: 100%;
+        }
+    }    
+}

@@ -268,6 +268,18 @@ header #menu i {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  #welcome #message {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #welcome #message {
+    width: 100%;
+  }
+}
+
 #About #detail {
   display: -webkit-box;
   display: -ms-flexbox;
