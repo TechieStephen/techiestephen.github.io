@@ -164,11 +164,6 @@ header nav #mobile {
           transform: translateX(50%);
 }
 
-header nav.show {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-}
-
 header #menu {
   cursor: pointer;
   display: -webkit-box;

@@ -47,7 +47,6 @@ const App = Vue.createApp({
       }
     },
     created(){
-        console.log(this.counter)
     }
   })
   

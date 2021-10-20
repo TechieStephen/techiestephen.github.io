@@ -1,17 +1,17 @@
-menu = document.getElementById('menu')
-closeMenu = document.getElementById('close')
-mobile = document.getElementById('mobile')
-nav = document.getElementsByClassName('nav')
+const menu = document.getElementById("menu")
+const menu_bar = document.getElementById("menu-bar")
+
+const nav = document.getElementById('nav-menu')
+const mobile = document.getElementById('mobile')
 
 const toggleMenu = () => {
-    nav[0].classList.toggle('show')
+    nav.classList.toggle('show')
     if(nav.classList.contains('show')){
-        menu_bar.src = "images/icon-close.svg"
+        menu_bar.src = "../images/icon-close.svg"
     }else{
-        menu_bar.src = "images/icon-hamburger.svg"
+        menu_bar.src = "../images/icon-hamburger.svg"
     }
 }
 
-menu.addEventListener('click', toggleMenu)
 mobile.addEventListener('click', toggleMenu)
-closeMenu.addEventListener('click', toggleMenu)
+menu_bar.addEventListener('click', toggleMenu)
