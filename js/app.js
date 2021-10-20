@@ -40,7 +40,7 @@ const App = Vue.createApp({
                 "image":"../images/projects/tutorpro.png",
                 "link":"",
                 "github":"",
-                "description":"E-Learning Platform for College Students. Built using Asp.Net Core Web API, C# and Vue CLI. The aim of this project is to give Nigeria students access to online video lectures on their various courses",
+                "description":"Tutor Pro is an E-Learning platform for college students. The aim of this project is to give Nigeria students access to online video lecture on various courses",
         
             }
         ]
