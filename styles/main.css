@@ -50,7 +50,7 @@ h2 {
 
 h3 {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 @media (max-width: 900px) {
@@ -429,6 +429,10 @@ header #menu i {
 #projects #content .project .image img {
   border-radius: 2px;
   width: 95%;
+  -webkit-transition: 2s -webkit-transform;
+  transition: 2s -webkit-transform;
+  transition: 2s transform;
+  transition: 2s transform, 2s -webkit-transform;
 }
 
 #projects #content .project .info {
@@ -470,14 +474,6 @@ header #menu i {
   font-size: 1.3em;
   color: black;
   cursor: pointer;
-}
-
-#projects #content img {
-  -webkit-transition: 2s -webkit-transform;
-  transition: 2s -webkit-transform;
-  transition: 2s transform;
-  transition: 2s transform, 2s -webkit-transform;
-  width: 100%;
 }
 
 #projects #content .project:hover img {

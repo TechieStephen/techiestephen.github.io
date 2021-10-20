@@ -19,6 +19,7 @@
                 img{
                     border-radius: 2px;
                     width: 95%;
+                    transition: 2s transform;
                 }
             }
 
@@ -50,11 +51,6 @@
                     }
                 }
             }
-        }
-
-        img{
-            transition: 2s transform;
-            width: 100%;
         }
         .project:hover{
             img{
