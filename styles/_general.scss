@@ -1,8 +1,13 @@
+$mainColor : hsl(173, 97%, 41%);
+$textColor : #0C0C0C;
+$linkColor: #FF931E;
+$background : #FCFCFC;
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
     user-select: none;
 }
 
