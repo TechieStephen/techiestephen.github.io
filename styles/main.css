@@ -225,11 +225,10 @@ header #menu i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
-  background-color: red;
 }
 
 #welcome #connect svg {
@@ -238,19 +237,17 @@ header #menu i {
 
 #welcome #connect #email {
   margin-right: 5%;
-  width: 30%;
   color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   background: #03ceb6;
-  width: 250px;
-  padding: 15px;
+  padding: 15px 35px;
   margin: 40px 0px;
   text-align: center;
 }
 
 #welcome #connect #social {
-  width: 70%;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
