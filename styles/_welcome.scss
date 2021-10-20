@@ -1,4 +1,4 @@
-#welcome{
+#welcome {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -7,79 +7,104 @@
 
     #message {
         width: 50%;
-        h1{
+        h1 {
             font-size: 30px;
             font-weight: 500;
-            span{
-                color: $mainColor; 
+
+            span {
+                color: $mainColor;
                 font-weight: 700;
             }
         }
-    }
 
-    #connect{
-        margin-top: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        svg{
-            width: 50px;
-        }
-        #email{
-            margin-right: 5%;
-            color: #ffffff;
-            font-weight: 500;
-            font-size: 20px;
-            background: $mainColor;
-            padding: 15px 35px;
-            margin: 40px 0px;
-            text-align: center;
-        }
-        #social{
-            width: 60%;
+        #connect {
+            margin-top: 30px;
             display: flex;
             align-items: center;
-            justify-content: flex-start;
-            a{margin-left: 10%;}
+            justify-content: space-between;
+            width: 100%;
+
+            svg {
+                width: 50px;
+            }
+
+            #email {
+                margin-right: 5%;
+                color: #ffffff;
+                font-weight: 500;
+                font-size: 20px;
+                background: $mainColor;
+                padding: 15px 35px;
+                margin: 40px 0px;
+                text-align: center;
+            }
+
+            #social {
+                width: 60%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                a {
+                    margin-left: 10%;
+                }
+            }
         }
     }
 }
 
 
 @media screen and (max-width:1024px) {
-    #welcome{
-        width: 100%;
-        justify-content: center;
-        flex-direction: column;
+    #welcome {
         min-height: 90vh;
-        
+        transition: 2s ease-in all;
+
         #message {
-            // width: 100%;
-            h2{
-                text-align: center;
-                width: 100%;
-                font-size: 25px;
+            width: 60%;
+
+            h1 {
+                font-size: 30px;
+                font-weight: 500;
+
+                span {
+                    color: $mainColor;
+                    font-weight: 700;
+                }
             }
         }
 
-        #connect{
-            margin-top: 50px;
+        #connect {
+            display: flex;
+            align-items: center;
             justify-content: space-between;
-            
-            svg{
-                width: 40px;
-            }
-            #email{
-                width: 40%;
-                margin-right: 10%;
+            width: 100%;
+
+            svg {
+                width: 50px;
             }
 
-            #social{
-                width: 50%;
-                justify-content: flex-end;
-                a{margin-left: 10%;}
+            #email {
+                margin-right: 5%;
+                color: #ffffff;
+                font-weight: 500;
+                font-size: 20px;
+                background: $mainColor;
+                padding: 15px 35px;
+                margin: 40px 0px;
+                text-align: center;
+            }
+
+            #social {
+                width: 60%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                a {
+                    margin-left: 10%;
+                }
             }
         }
     }
+
 }
