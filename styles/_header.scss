@@ -72,14 +72,6 @@ header{
             cursor: pointer;
             font-size: 2em;
             color: lightgray;
-        }    
-    
-        #mobile{
-            display: none;
-            position: absolute;
-            bottom:20px;
-            right: 50%;
-            transform: translateX(50%);
         }
     
         &.show{
@@ -106,9 +98,6 @@ header{
         nav{
             width:100%;
             padding: 6%;
-            #mobile{
-                display: inline-block;
-            }
         }
     }
 }

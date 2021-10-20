@@ -2,7 +2,7 @@ const menu = document.getElementById("menu")
 const menu_bar = document.getElementById("menu-bar")
 
 const nav = document.getElementById('nav-menu')
-const mobile = document.getElementById('mobile')
+const close = document.getElementById('close')
 
 const toggleMenu = () => {
     nav.classList.toggle('show')
@@ -13,5 +13,5 @@ const toggleMenu = () => {
     }
 }
 
-mobile.addEventListener('click', toggleMenu)
+close.addEventListener('click', toggleMenu)
 menu_bar.addEventListener('click', toggleMenu)
