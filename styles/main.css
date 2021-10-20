@@ -232,7 +232,7 @@ header #menu i {
 }
 
 #welcome #message #connect {
-  margin-top: 30px;
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,8 +254,7 @@ header #menu i {
   font-weight: 500;
   font-size: 20px;
   background: #03ceb6;
-  padding: 15px 50px;
-  margin: 40px 0px;
+  padding: 15px 40px;
   text-align: center;
 }
 
@@ -291,6 +290,29 @@ header #menu i {
 @media screen and (max-width: 760px) {
   #welcome #message {
     width: 100%;
+  }
+  #welcome #message #connect {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #welcome #message #connect svg {
+    width: 40px;
+  }
+  #welcome #message #connect #email {
+    font-size: 18px;
+    padding: 12px;
+    width: 40%;
+    text-align: center;
+  }
+  #welcome #message #connect #social {
+    width: 50%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #welcome #message #connect #social a {
+    margin-left: 0px;
   }
 }
 
