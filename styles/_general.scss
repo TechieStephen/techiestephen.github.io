@@ -22,7 +22,7 @@ $White: hsl(0, 0%, 100%);
 }
 
 body{
-    font-size: 16px;
+    font-size: 18px;
     // background: $background;
     width: 100%;
     color: $DarkBlue;
@@ -53,13 +53,12 @@ h1, h2{
     font-size: 25px;
 }
 
-h2{
+h2, h3{
     font-weight: 600;
 }
 
 h3{
-    font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
 }
 @media (max-width:900px){
     body{
