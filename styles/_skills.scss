@@ -39,11 +39,8 @@
 @media screen and (max-width:1024px) {
     #skills{
         #content{
-            flex-direction: column;
-    
             .skill{
                 margin-bottom: 40px;
-                min-height: auto !important;
                 padding: 30px 15px;
     
                 #img{
@@ -54,6 +51,18 @@
                 p{
                     width: 100%;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:920px) {
+    #skills{
+        #content{
+            flex-direction: column;
+    
+            .skill{
+                width: 100%;
             }
         }
     }

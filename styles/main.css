@@ -361,6 +361,19 @@ header #menu i {
 }
 
 @media screen and (max-width: 1024px) {
+  #skills #content .skill {
+    margin-bottom: 40px;
+    padding: 30px 15px;
+  }
+  #skills #content .skill #img svg {
+    width: 40%;
+  }
+  #skills #content .skill p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 920px) {
   #skills #content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -368,14 +381,6 @@ header #menu i {
             flex-direction: column;
   }
   #skills #content .skill {
-    margin-bottom: 40px;
-    min-height: auto !important;
-    padding: 30px 15px;
-  }
-  #skills #content .skill #img svg {
-    width: 40%;
-  }
-  #skills #content .skill p {
     width: 100%;
   }
 }
