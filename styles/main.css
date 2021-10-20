@@ -316,6 +316,9 @@ header #menu i {
 }
 
 @media screen and (max-width: 1024px) {
+  #About #detail p {
+    width: 100%;
+  }
   #About #detail div {
     display: none;
   }
