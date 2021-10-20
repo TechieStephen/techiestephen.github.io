@@ -1,24 +1,19 @@
 #welcome{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     min-height: 90vh;
     transition: 2s ease-in all;
 
     #message {
+        width: 50%;
         h1{
-            width: 65%;
             font-size: 30px;
             font-weight: 500;
             span{
                 color: $mainColor; 
                 font-weight: 700;
             }
-        }
-    }
-    #welcome-img {
-        img{
-            width: 100%;
         }
     }
 
@@ -28,15 +23,26 @@
         align-items: center;
         justify-content: flex-start;
         width: 100%;
+
+        background-color: red;
+
         svg{
             width: 50px;
         }
         #email{
             margin-right: 5%;
             width: 30%;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 20px;
+            background: $mainColor;
+            width: 250px;
+            padding: 15px;
+            margin: 40px 0px;
+            text-align: center;
         }
         #social{
-            width: 50%;
+            width: 70%;
             display: flex;
             align-items: center;
             justify-content: flex-start;
@@ -54,18 +60,11 @@
         min-height: 90vh;
         
         #message {
-            width: 100%;
+            // width: 100%;
             h2{
                 text-align: center;
                 width: 100%;
                 font-size: 25px;
-            }
-        }
-        #welcome-img {
-            width: 100%;
-            text-align: center;
-            img{
-                width: 90%;
             }
         }
 

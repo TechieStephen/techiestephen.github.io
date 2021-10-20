@@ -192,9 +192,9 @@ header #menu i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -203,8 +203,11 @@ header #menu i {
   transition: 2s ease-in all;
 }
 
+#welcome #message {
+  width: 50%;
+}
+
 #welcome #message h1 {
-  width: 65%;
   font-size: 30px;
   font-weight: 500;
 }
@@ -212,10 +215,6 @@ header #menu i {
 #welcome #message h1 span {
   color: #03ceb6;
   font-weight: 700;
-}
-
-#welcome #welcome-img img {
-  width: 100%;
 }
 
 #welcome #connect {
@@ -230,6 +229,7 @@ header #menu i {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
+  background-color: red;
 }
 
 #welcome #connect svg {
@@ -239,10 +239,18 @@ header #menu i {
 #welcome #connect #email {
   margin-right: 5%;
   width: 30%;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  background: #03ceb6;
+  width: 250px;
+  padding: 15px;
+  margin: 40px 0px;
+  text-align: center;
 }
 
 #welcome #connect #social {
-  width: 50%;
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,20 +278,10 @@ header #menu i {
             flex-direction: column;
     min-height: 90vh;
   }
-  #welcome #message {
-    width: 100%;
-  }
   #welcome #message h2 {
     text-align: center;
     width: 100%;
     font-size: 25px;
-  }
-  #welcome #welcome-img {
-    width: 100%;
-    text-align: center;
-  }
-  #welcome #welcome-img img {
-    width: 90%;
   }
   #welcome #connect {
     margin-top: 50px;
@@ -613,17 +611,6 @@ section p {
 
 section #content {
   margin-top: 40px;
-}
-
-#email {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 20px;
-  background: #03ceb6;
-  width: 250px;
-  padding: 15px;
-  margin: 40px 0px;
-  text-align: center;
 }
 
 #youtube {
