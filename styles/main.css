@@ -198,7 +198,7 @@ header #menu i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 90vh;
+  min-height: 60vh;
   -webkit-transition: 2s ease-in all;
   transition: 2s ease-in all;
 }
@@ -263,24 +263,8 @@ header #menu i {
 }
 
 @media screen and (max-width: 1024px) {
-  #welcome {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    min-height: 90vh;
-    -webkit-transition: 2s ease-in all;
-    transition: 2s ease-in all;
-    background-color: gray;
-  }
   #welcome #message {
     width: 60%;
-    background-color: red;
   }
   #welcome #message h1 {
     font-size: 30px;
@@ -599,7 +583,7 @@ header #menu i {
 
 main {
   padding: 0px 6%;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 #line {

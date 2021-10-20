@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    min-height: 90vh;
+    min-height: 60vh;
     transition: 2s ease-in all;
 
     #message {
@@ -53,17 +53,9 @@
 }
 
 @media screen and (max-width:1024px) {
-    #welcome {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        min-height: 90vh;
-        transition: 2s ease-in all;
-        background-color: gray;
-    
+    #welcome {    
         #message {
             width: 60%;
-            background-color: red;
             h1 {
                 font-size: 30px;
                 font-weight: 500;
