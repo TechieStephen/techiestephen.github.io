@@ -54,7 +54,7 @@ header {
           justify-content: space-between;
   -webkit-box-shadow: 0px 1px 6px lightgray;
           box-shadow: 0px 1px 6px lightgray;
-  padding: 3% 3%;
+  padding: 3% 6%;
   background: #FFFFFF;
   width: 100%;
   height: 70px;
@@ -575,7 +575,7 @@ header #menu i {
 }
 
 #wrapper {
-  padding: 3% 3%;
+  padding: 20px 6%;
   margin-top: 100px;
 }
 
