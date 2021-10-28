@@ -6,7 +6,7 @@ const App = Vue.createApp({
             {
                 "id":1,
                 "title":"EasyBank",
-                "technologies":["HTML5", "CSS3", "JavaScript", "SASS"],
+                "stack":["HTML5", "CSS3", "JavaScript", "SASS"],
                 "image":"../images/projects/easybank.png",
                 "link":"https://eazzybank.netlify.app",
                 "github":"https://github.com/ohienstephen/EasyBank",
@@ -16,7 +16,7 @@ const App = Vue.createApp({
             {
                 "id":2,
                 "title":"IP Locator",
-                "technologies":["HTML5", "CSS3", "JavaScript", "API", "Open Map"],
+                "stack":["HTML5", "CSS3", "JavaScript", "API", "Open Map"],
                 "image":"../images/projects/ip-tracker.png",
                 "link":"https://ip-loca.netlify.app",
                 "github":"https://github.com/ohienstephen/IP-Locator",
@@ -26,7 +26,7 @@ const App = Vue.createApp({
             {
                 "id":3,
                 "title":"Countriz",
-                "technologies":["HTML5", "CSS3", "JavaScript", "API", "Axios", "Vue.js", "C#"],
+                "stack":["HTML5", "CSS3", "JavaScript", "API", "Axios", "Vue.js", "C#"],
                 "image":"../images/projects/countriz.png",
                 "link":"https://os-countries.netlify.app",
                 "github":"https://github.com/ohienstephen/Countriz",
@@ -36,7 +36,7 @@ const App = Vue.createApp({
             {
                 "id":4,
                 "title":"Tutor Pro",
-                "technologies":["HTML5", "CSS3", "JavaScript", "API", "Axios", "Vue.js", "C#", "Asp.Net Core"],
+                "stack":["HTML5", "CSS3", "JavaScript", "API", "Axios", "Vue.js", "C#", "Asp.Net Core"],
                 "image":"../images/projects/tutorpro.png",
                 "link":"",
                 "github":"",
