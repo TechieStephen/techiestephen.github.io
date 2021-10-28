@@ -6,7 +6,7 @@ const App = Vue.createApp({
             {
                 "id":1,
                 "title":"EasyBank",
-                "technologies":"HTML5, CSS3, JavaScript, SASS",
+                "technologies":["HTML5", "CSS3", "JavaScript", "SASS"],
                 "image":"../images/projects/easybank.png",
                 "link":"https://eazzybank.netlify.app",
                 "github":"https://github.com/ohienstephen/EasyBank",
@@ -16,7 +16,7 @@ const App = Vue.createApp({
             {
                 "id":2,
                 "title":"IP Locator",
-                "technologies":"HTML5, CSS3, JavaScript, API, Open Map",
+                "technologies":["HTML5", "CSS3", "JavaScript", "API", "Open Map"],
                 "image":"../images/projects/ip-tracker.png",
                 "link":"https://ip-loca.netlify.app",
                 "github":"https://github.com/ohienstephen/IP-Locator",
@@ -26,7 +26,7 @@ const App = Vue.createApp({
             {
                 "id":3,
                 "title":"Countriz",
-                "technologies":"HTML5, CSS3, JavaScript, API, Axios, Vue.js C#",
+                "technologies":["HTML5", "CSS3", "JavaScript", "API", "Axios", "Vue.js", "C#"],
                 "image":"../images/projects/countriz.png",
                 "link":"https://os-countries.netlify.app",
                 "github":"https://github.com/ohienstephen/Countriz",
@@ -36,7 +36,7 @@ const App = Vue.createApp({
             {
                 "id":4,
                 "title":"Tutor Pro",
-                "technologies":"HTML5, CSS3, JavaScript, API, Axios, Vue.js C#, Asp.Net Core",
+                "technologies":["HTML5", "CSS3", "JavaScript", "API", "Axios", "Vue.js", "C#", "Asp.Net Core"],
                 "image":"../images/projects/tutorpro.png",
                 "link":"",
                 "github":"",
@@ -53,6 +53,7 @@ const App = Vue.createApp({
           if(item.id == id){
             this.selected = item
             this.show = true
+            console.log(JSON.stringify(this.selected))
           }
         });
       }
