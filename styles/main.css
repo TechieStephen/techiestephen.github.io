@@ -684,7 +684,6 @@ section #content {
           flex-direction: column;
   -webkit-transition: 5s ease-in all;
   transition: 5s ease-in all;
-  display: none;
 }
 
 #view #close-view {
