@@ -55,7 +55,6 @@ const App = Vue.createApp({
             this.show = true
           }
         });
-        alert(id)
       }
     },
     created(){
