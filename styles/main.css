@@ -434,6 +434,10 @@ header #menu i {
   }
 }
 
+#projects {
+  background-color: #f3f4f6;
+}
+
 #projects #content {
   width: 100%;
   display: -webkit-box;
@@ -734,9 +738,6 @@ section #content {
   }
   #decoration-image {
     width: 55%;
-  }
-  section {
-    margin: 50px 0px;
   }
   section p {
     margin: 10px 0px;
