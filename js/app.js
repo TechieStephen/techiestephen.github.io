@@ -1,7 +1,7 @@
 const App = Vue.createApp({
     data() {
       return {
-        counter: 50,
+        show: true,
         projects:[
             {
                 "id":1,

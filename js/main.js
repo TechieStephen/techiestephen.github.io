@@ -24,6 +24,5 @@ menu_bar.addEventListener('click', toggleMenu)
 // })
 links = [...menu_links]
 links.forEach(element => {
-    console.log(element)
     element.addEventListener("click", toggleMenu)
 });
