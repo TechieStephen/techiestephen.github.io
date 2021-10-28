@@ -59,6 +59,7 @@ const App = Vue.createApp({
       }
     },
     created(){
+      this.showProject(1)
     }
   })
   
