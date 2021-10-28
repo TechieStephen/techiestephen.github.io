@@ -342,12 +342,7 @@
         <div id="container">
           <img :src="selected.image" alt="">
           <ul id="technologies">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS</li>
-            <li>JavaScript</li>
-            <li>VueJs</li>
-            <li>API</li>
+            <li v-for="item in selected.">{{item}}</li>
           </ul>
         </div>
       </div>
