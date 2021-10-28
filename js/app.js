@@ -1,7 +1,7 @@
 const App = Vue.createApp({
     data() {
       return {
-        show: true,
+        show: false,
         projects:[
             {
                 "id":1,
@@ -43,7 +43,19 @@ const App = Vue.createApp({
                 "description":"Tutor Pro is an E-Learning platform for college students. The aim of this project is to give Nigeria students access to online video lecture on various courses",
         
             }
-        ]
+        ],
+        selected:{}
+      }
+    },
+    methods:{
+      showProject(id){
+        this.projects.forEach(item => {
+          if(item.id == id){
+            this.selected = item
+            this.show = true
+          }
+        });
+        alert(id)
       }
     },
     created(){
