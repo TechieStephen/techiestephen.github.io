@@ -18,11 +18,12 @@ $White: hsl(0, 0%, 100%);
     box-sizing: border-box;
     // font-family: 'Public Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    user-select: none;
+    // user-select: none;
+    font-size: 18px;
+
 }
 
 body{
-    font-size: 18px;
     // background: $background;
     width: 100%;
     color: $DarkBlue;
