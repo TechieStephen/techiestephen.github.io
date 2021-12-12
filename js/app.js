@@ -4,7 +4,17 @@ const App = Vue.createApp({
         show: false,
         projects:[
             {
-                "id":1,
+              "id":1,
+              "title":"Nedytrades",
+              "stack":["HTML5", "CSS3", "JavaScript", "SASS", "API", "Axios", "Vue.js", "C#", "Asp.Net Core"],
+              "image":"../images/projects/nedytrades.png",
+              "link":"https://nedytrades.com.ng",
+              "github":"",
+              "description":"A platform where you can convert your crypto currencies and gift cards to naira, They buy crypto currencies and all country’s GIFT CARDS at superb rates and pay swiftly. The idea was to develop a classsic  but yet user friendly interface."
+      
+          },
+            {
+                "id":2,
                 "title":"EasyBank",
                 "stack":["HTML5", "CSS3", "JavaScript", "SASS"],
                 "image":"../images/projects/easybank.png",
@@ -14,7 +24,7 @@ const App = Vue.createApp({
         
             },
             {
-                "id":2,
+                "id":3,
                 "title":"IP Locator",
                 "stack":["HTML5", "CSS3", "JavaScript", "API", "Open Map"],
                 "image":"../images/projects/ip-tracker.png",
@@ -24,7 +34,7 @@ const App = Vue.createApp({
         
             },
             {
-                "id":3,
+                "id":4,
                 "title":"Countriz",
                 "stack":["HTML5", "CSS3", "JavaScript", "API", "Axios", "Vue.js", "C#"],
                 "image":"../images/projects/countriz.png",
@@ -34,7 +44,7 @@ const App = Vue.createApp({
         
             },
             {
-                "id":4,
+                "id":5,
                 "title":"Tutor Pro",
                 "stack":["HTML5", "CSS3", "JavaScript", "API", "Axios", "Vue.js", "C#", "Asp.Net Core"],
                 "image":"../images/projects/tutorpro.png",
