@@ -14,12 +14,12 @@
             overflow: hidden;
 
             .image{
-                padding: 15px;
+                padding: 10px;
                 text-align: center;
                 background: #DBDEE7;
                 img{
-                    border-radius: 2px;
-                    width: 95%;
+                    border-radius: 3px;
+                    width: 98%;
                     transition: 2s transform;
                 }
             }
@@ -46,7 +46,6 @@
                     }
                     
                     a, span{
-                        font-size: 1.3em;
                         color: rgb(0, 0, 0);
                         cursor: pointer;
                     }
@@ -55,7 +54,7 @@
         }
         .project:hover{
             img{
-                transform: scale(1.1);
+                transform: scale(1.05);
             }
         }
     }
@@ -65,7 +64,7 @@
     #projects{
         #content{    
             .project{
-                width: 98%;
+                width: 100%;
                 margin: 0 auto;
                 margin-bottom: 40px;
             }
