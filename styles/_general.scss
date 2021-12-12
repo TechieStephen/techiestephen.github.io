@@ -19,8 +19,7 @@ $White: hsl(0, 0%, 100%);
     // font-family: 'Public Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
     // user-select: none;
-    font-size: 18px;
-
+    font-size: 1em;
 }
 
 body{
@@ -50,25 +49,17 @@ svg{
 p{
     color: $GrayishBlue;
     font-weight: 400;
+    font-size: 0.9em;
 }
-h1, h2{
-    font-size: 30px;
-}
-
-h2{
-    font-weight: 600;
+h1{
+    font-size: 2em;
 }
 
-h3{
-    font-weight: 650;
-    font-size: 18px;
+h2, h3{
+    font-size: 1.6em;
+    font-weight: 700;
 }
+
 
 @media (max-width:900px){
-    body{
-        font-size: 17px;
-    }
-    h1, h2{
-        font-size: 25px;
-    }
 }
