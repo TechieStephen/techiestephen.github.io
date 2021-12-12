@@ -10,10 +10,14 @@
         width: 50%;
         h1 {
             font-weight: 500;
+            font-size: 1.6em;
 
             span {
+                display: inline-block;
                 color: $mainColor;
                 font-weight: 700;
+                margin-bottom: 15px;
+                font-size: 1.3em;
             }
         }
 
